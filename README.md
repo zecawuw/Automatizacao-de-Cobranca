@@ -9,7 +9,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/zecawuw/Automatizacao-de-Cobranca.git)
+   git clone https://github.com/zecawuw/Automatizacao-de-Cobranca.git
    ```
 
 2. Navegue até o diretório do projeto:
