@@ -88,6 +88,7 @@ Um exemplo de cabeçalho correto para o arquivo CSV seria:
 ```csv
 Nome,Emissão,Vencimento,Valor,Forma de Pagamento,Número do Pedido,Telefone,Número da NF
 ```
+![image](https://github.com/zecawuw/Automatizacao-de-Cobranca/assets/88804350/3ce61ede-de89-428c-aa46-9d97ed300905)
 
 ## Exemplo de Linha de Dados
 
@@ -96,6 +97,8 @@ Um exemplo de linha de dados no arquivo CSV seria:
 ```csv
 João Silva,01/01/2023,02/05/2023,150.00,Cartão de Crédito,123456,5511923456789,78901234
 ```
+![image](https://github.com/zecawuw/Automatizacao-de-Cobranca/assets/88804350/4447f5a1-0a3d-49b4-abcd-ea9b555be6c4)
+
 
 Certifique-se de seguir essas instruções rigorosamente para garantir uma integração eficiente e sem erros dos dados. Se houver dúvidas ou problemas, entre em contato com a equipe responsável pelo processamento dos arquivos.
 
