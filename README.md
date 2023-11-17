@@ -23,6 +23,16 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
    ```bash
    npm install
    ```
+4. Gerencia as requisições, rotas e URLs, entre outra funcionalidades
+   ```bash
+   npm install --save express
+   ```
+
+5. Instale as dependências do Puppeteer
+
+   ```bash
+   npm install puppeteer
+   ```
 
 ## Como Executar o Projeto
 
@@ -53,3 +63,5 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 - Este projeto é uma aplicação de exemplo e pode exigir ajustes adicionais para atender às necessidades específicas do ambiente de produção.
 
 - Lembre-se de substituir as credenciais e informações sensíveis antes de implantar em um ambiente de produção.
+
+O Puppeteer é uma biblioteca Node.js que fornece uma API de alto nível para controlar e interagir com navegadores Chromium ou Chrome através do protocolo DevTools. Ele é frequentemente usado para automação de testes, scraping de dados da web e automação de tarefas relacionadas ao navegador.
