@@ -40,7 +40,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 
 - **HTML (index.html):** Contém o formulário web básico para upload de arquivos.
   
-- **Node.js (nome-do-arquivo-node.js):** Backend construído com Node.js e Express. Utiliza a biblioteca Multer para lidar com o upload de arquivos e a biblioteca CSV para analisar o conteúdo do arquivo CSV.
+- **Node.js (app.js):** Backend construído com Node.js e Express. Utiliza a biblioteca Multer para lidar com o upload de arquivos e a biblioteca CSV para analisar o conteúdo do arquivo CSV.
 
 - **Puppeteer (bot-whatsapp.js):** Utiliza o Puppeteer para automatizar a interação com o WhatsApp Web. Extrai informações do arquivo CSV processado e envia notificações personalizadas para os destinatários via WhatsApp.
 
