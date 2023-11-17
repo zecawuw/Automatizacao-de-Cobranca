@@ -29,10 +29,8 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 1. Execute o servidor Node.js:
 
    ```bash
-   node nome-do-arquivo-node.js
+   node app.js
    ```
-
-   Certifique-se de substituir `nome-do-arquivo-node.js` pelo nome do seu arquivo Node.js, se necessário.
 
 2. Abra um navegador e acesse `http://localhost:8080` para acessar o formulário de envio de arquivos.
 
