@@ -54,6 +54,51 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 
 - **Puppeteer (bot-whatsapp.js):** Utiliza o Puppeteer para automatizar a interação com o WhatsApp Web. Extrai informações do arquivo CSV processado e envia notificações personalizadas para os destinatários via WhatsApp.
 
+# Instruções para Envio de Arquivo
+
+Este documento descreve as regras a serem seguidas ao enviar arquivos para processamento. Certifique-se de seguir as diretrizes abaixo para garantir uma integração suave e precisa dos dados.
+
+## Formato do Arquivo
+
+O arquivo a ser enviado deve ser no formato CSV (Comma-Separated Values). Certifique-se de que o arquivo esteja corretamente formatado antes do envio.
+
+## Conversão de Excel para CSV
+
+Caso você esteja utilizando o Microsoft Excel ou outro software de planilha, certifique-se de converter o arquivo para o formato CSV antes do envio. Isso pode ser feito facilmente no Excel através da opção "Salvar Como" e escolhendo o formato CSV.
+
+## Sequência de Colunas
+
+O arquivo CSV enviado deve seguir a seguinte sequência de colunas:
+
+1. **Nome**: Nome do cliente ou destinatário.
+2. **Emissão**: Data de emissão do documento.
+3. **Vencimento**: Data de vencimento do documento.
+4. **Valor**: Valor associado ao documento.
+5. **Forma de Pagamento**: Método de pagamento utilizado.
+6. **Número do Pedido**: Número associado ao pedido, se aplicável.
+7. **Telefone**: Número de telefone do cliente ou destinatário.
+8. **Número da NF (Nota Fiscal)**: Número da Nota Fiscal associado ao documento.
+
+Certifique-se de que as colunas estão dispostas exatamente nesta ordem para evitar problemas durante o processamento.
+
+## Exemplo de Cabeçalho do Arquivo CSV
+
+Um exemplo de cabeçalho correto para o arquivo CSV seria:
+
+```csv
+Nome,Emissão,Vencimento,Valor,Forma de Pagamento,Número do Pedido,Telefone,Número da NF
+```
+
+## Exemplo de Linha de Dados
+
+Um exemplo de linha de dados no arquivo CSV seria:
+
+```csv
+João Silva,01/01/2023,02/05/2023,150.00,Cartão de Crédito,123456,5511923456789,78901234
+```
+
+Certifique-se de seguir essas instruções rigorosamente para garantir uma integração eficiente e sem erros dos dados. Se houver dúvidas ou problemas, entre em contato com a equipe responsável pelo processamento dos arquivos.
+
 ## Observações
 
 - Certifique-se de ter as permissões necessárias para acessar o WhatsApp Web e enviar mensagens automáticas.
