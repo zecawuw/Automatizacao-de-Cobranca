@@ -15,7 +15,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente.
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd Automatizacao-de-Cobranca
    ```
 
 3. Instale as dependências do Node.js:
