@@ -4,7 +4,7 @@ Este projeto consiste em um formulário web simples para o envio de arquivos CSV
 
 ## Como Baixar Dependências
 
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente. Em seguida, siga os passos abaixo:
+Certifique-se de ter o [Node.js](https://nodejs.org/) e o [Git](https://git-scm.com/downloads) instalado em seu ambiente. Em seguida, siga os passos abaixo:
 
 1. Clone o repositório para sua máquina local:
 
